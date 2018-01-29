@@ -18,7 +18,10 @@ class Projects extends Component {
         return (
             <div className="Projects">
                 <h3>Latest Projects</h3>
-                {projectItems}
+                <ul className="list-group">
+                    {projectItems}
+                </ul>
+
             </div>
         );
     }

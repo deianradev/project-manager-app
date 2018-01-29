@@ -39,8 +39,8 @@ class AddProject extends Component {
                         <input type="text" ref="title" />
                     </div>
                     <div>
-                        <label>Category</label><br />
-                        <select ref="category">
+                        <label htmlFor="categorySelect">Category list:</label><br />
+                        <select ref="category" className="form-control" id="categorySelect">
                             {categoryOptions}
                         </select>
                     </div>
